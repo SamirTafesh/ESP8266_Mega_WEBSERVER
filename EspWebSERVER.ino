@@ -51,7 +51,7 @@
    clearSerialBuffer();  //Function to Clear the ESP8266 Buffer 
     
    //connect to WIFI router 
-   connectWiFi("BOSSR", "SamirTafesh1972"); 
+   connectWiFi("SSID", "PASSWORD"); 
    delay(10000);
    
    //test if the module is ready 
